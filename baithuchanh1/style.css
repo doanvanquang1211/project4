@@ -7,108 +7,79 @@ ul {
     list-style: none;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
+
 .container {
-    width: 75%;
-    height: 800px;
-    background-color:rgb(242,243,245);
-}
-
-.container .content1 {
-    width: 70vw;
-}
-
-.container .content1 h1 {
-    font-size: 45px;
-    margin-left: 30px;
-}
-
-.container .content1 .text {
-    font-size: 20px;
-    color: rgb(169, 170, 170);
-    line-height: 30px;
-    margin-left: 30px;
-}
-
-.container .content {
-    width: 1400px;
-    height: 70vh;
-}
-
-.container .content2 {
-    width: 500px;
-    float: left;
-}
-
-.container .content .content2 .text1 {
-    background-color: rgb(120, 154, 222);
-    width: 440px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-
-.container .content .content2 h3 {
-    margin: 25px 30px;
-    font-size: 25px;
-    width: 440px;
-}
-
-.container .content .content2 .text22 {
-    margin-left: 30px;
-    line-height: 25px;
-    color: rgb(169, 170, 170);
-    width: 440px;
-}
-
-.container .content .content3 {
     width: 850px;
-    float: right;
-    margin-top: 50px;
+    height: 700px;
 }
 
-.container .content3 li .text4 {
-    width: 90px;
-    height: 90px;
-    background-color: rgb(217, 151, 222);
-    border-radius: 4px;
+.container .menu {
+    width: 850px;
+    background-color: rgb(242, 243, 245);
+    height: 620px;
+    margin-top: 70px;
+    color: rgb(172, 163, 163);
+}
+
+.container .title {
+    text-align: center;
+}
+
+.container .title .text {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.container .title .text1 {
+    font-size: 20px;
+    width: 780px;
+    margin-bottom: 55px;
+    line-height: 28px;
+    color: rgb(172, 163, 163);
+}
+
+.input-form .list .list1 {
+    border: 1px solid rgb(235, 235, 235);
+    width: 350px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 2px;
+    margin: 20px 20px;
+}
+
+.input-form .country {
+    border: 1px solid rgb(235, 235, 235);
+    width: 380px;
+    height: 50px;
+    padding: 15px;
+    margin: 20px 20px;
+    border-radius: 2px;
+}
+
+.input-form .input-text {
+    border: 1px solid rgb(235, 235, 235);
+    width: 770px;
+    height: 180px;
+    padding-left: 10px;
+    border-radius: 2px;
+    margin: 25px 20px;
+}
+
+.input-form .click {
+    border-radius: 0px solid;
+    width: 92%;
+    background-color: rgb(45, 48, 50);
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 55px;
-    color: rgb(255, 255, 255);
-}
-
-
-
-.container .content .content3 li {
-    /* background-color: brown; */
-    display: flex;
-    margin-bottom: 40px;
-    border-bottom:1px  dashed rgb(244,67,54) ;
-   line-height: 35px;
-}
-.container .content .content3 li .lst h4{
-font-size: 20px;
-margin-left: 25px;
-
-}
-.container .content .content3 li .text5{
-    width: 550px;
-    line-height: 20px;
-    margin-left: 25px;
-    color:  rgb(169, 170, 170);
-    margin-bottom: 30px;
+    margin: 20px 20px;
 }
