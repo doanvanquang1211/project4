@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: rgb(50, 92, 106);
+    width: 1200px;
+    color: rgb(245, 247, 247);
+}
+
+.content .style {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.content .style .content1 .inner {
+    margin: 35px 40px;
+}
+
+.content .style .content1 .lst {
+    line-height: 30px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.content .style .content2 {
+    margin-left: 90px;
+}
+
+.content .style .content2 .inner {
+    margin: 35px 40px;
+}
+
+.content .style .content2 .text a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(245, 247, 247);
+}
+
+.content .style .content3 {
+    margin-left: 90px;
+}
+
+.content .style .content3 .inner {
+    margin: 35px 40px;
+}
+
+.content .style .content3 .image {
+    display: flex;
+    margin-left: 60px;
+}
+
+.content .style .content3 .image li {
+    margin-right: 30px;
+}
+
+}
+
+.content .content5 {
+    width: 30%;
+}
+
+.content .type {
+    text-align: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid;
+}
