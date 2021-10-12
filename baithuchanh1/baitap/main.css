@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    background-color: rgb(31, 31, 31);
+    width: 1300px;
+    height: 600px;
+    float: right;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* doan1 */
+
+.container .content1 {
+    /* background-color:red; */
+    float: left;
+    width: 30%;
+}
+
+.container .content1 .list {
+    background-color: rgb(133, 152, 204);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 30px;
+}
+
+.container .content1 .text {
+    color: rgb(142, 142, 142);
+    width: 80%;
+    margin: 45px 30px;
+    line-height: 30px;
+}
+
+/* doan2 */
+
+.container .content2 {
+    /* background-color: rgb(133,152,204); */
+    width: 20%;
+    float: left;
+    margin-right: 45px;
+}
+
+.container .content2 h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+
+.container .content2 .link {
+    border-bottom: 1px dashed rgb(248, 169, 169);
+}
+
+.container .content2 .link a {
+    text-decoration: none;
+    line-height: 60px;
+    color: rgb(142, 142, 142);
+}
+
+.container .content2 .link a:hover {
+    color: blueviolet;
+}
+
+/* doan3 */
+
+.container .content3 {
+    /* background-color: plum; */
+    width: 20%;
+    float: left;
+    margin-right: 60px;
+}
+
+.container .content3 h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+
+.container .content3 .link1 {
+    line-height: 60px;
+    border-bottom: 1px dashed rgb(248, 169, 169);
+    color: rgb(142, 142, 142);
+}
+
+.container .content3 .link1 a {
+    text-decoration: none;
+    line-height: 60px;
+    color: rgb(142, 142, 142);
+}
+
+/* doan4 */
+
+.container .content4 {
+    /* background-color: palegolnrod; */
+    width: 18%;
+    float: left;
+}
+
+.container .content4 h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+
+.container .content4 .click2 {
+    line-height: 60px;
+    color: rgb(142, 142, 142);
+    border-bottom: 1px dashed rgb(248, 169, 169);
+}
+
+.container .content4 .click2 i {
+    border-right: 1px dashed rgb(248, 169, 169);
+    padding-right: 16px;
+    margin-right: 14px;
+    font-size: 14px;
+}
+
+.container .content4 .click3 i {
+    padding-right: 16px;
+    margin-right: 14px;
+    font-size: 14px;
+    border-right: 1px dashed rgb(248, 169, 169);
+    line-height: 45px;
+}
