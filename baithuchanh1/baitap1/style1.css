@@ -1,24 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-ul{
+
+ul {
     list-style: none;
 }
-body{
-   
+
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.about{
+
+.about {
     width: 1400px;
     height: 800px;
-   
 }
-.about .text{
+
+.about .text {
     text-align: center;
     font-size: 45px;
     font-weight: normal;
@@ -26,19 +28,20 @@ body{
     margin-left: 270px;
     margin-bottom: 35px;
 }
-.about .container{
+
+.about .container {
     width: 1400px;
-   
     height: 800px;
 }
-.about .content{
-    background-color: rgb(253, 244, 244) ;
+
+.about .content {
+    background-color: rgb(253, 244, 244);
     width: 450px;
     float: left;
     margin-top: 60px;
-
 }
-.about .content .text1{
+
+.about .content .text1 {
     font-size: 25px;
     width: 300px;
     margin-left: 30px;
@@ -47,40 +50,45 @@ body{
     font-weight: normal;
     padding-top: 30px;
 }
-.about .content .text2{
+
+.about .content .text2 {
     font-size: 20px;
-    color: rgb(143,143,143);
+    color: rgb(143, 143, 143);
     width: 330px;
     margin-left: 30px;
     line-height: 30px;
     word-spacing: 2px;
 }
-.about .content .text4{
+
+.about .content .text4 {
     font-weight: bold;
     margin-top: 40px;
     margin-left: 30px;
     font-size: 20px;
 }
-.about .content .text5{
+
+.about .content .text5 {
     color: blueviolet;
     margin: 30px;
 }
-.about .content1{
+
+.about .content1 {
     width: 700px;
-  
-float: left;
-margin-left: 60px;
-margin-top: 60px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
 }
-.about .content1 .text6{
+
+.about .content1 .text6 {
     font-size: 20px;
     line-height: 30px;
-    color: rgb(143,143,143);
+    color: rgb(143, 143, 143);
 }
-.about .container .content1 .text7{
+
+.about .container .content1 .text7 {
     line-height: 30px;
     font-size: 19px;
     margin: 30px 0px;
-    color: rgb(77,77,77);
+    color: rgb(77, 77, 77);
     font-weight: bold;
 }
